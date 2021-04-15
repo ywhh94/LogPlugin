@@ -1,0 +1,3 @@
+include ':plugin'
+include ':app'
+rootProject.name = "Plugin_Log_First"
