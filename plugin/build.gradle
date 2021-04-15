@@ -2,9 +2,6 @@ apply plugin: 'java-library'
 apply plugin: 'groovy'
 apply plugin: 'com.github.dcendents.android-maven'
 
-//apply plugin: 'com.github.dcendents.android-maven'
-//group='com.github.yyyangwenhao'
-
 dependencies {
     // gradle sdk
     implementation gradleApi()
@@ -12,11 +9,11 @@ dependencies {
     implementation localGroovy()
 
     // 添加依赖，于Android一样
-    implementation "com.android.tools.build:gradle:3.4.0"
-    implementation "com.android.tools.build:transform-api:1.5.0"
-    implementation "javassist:javassist:3.12.1.GA"
-    implementation "commons-io:commons-io:2.5"
+//    implementation "com.android.tools.build:gradle:3.4.0"
+//    implementation "com.android.tools.build:transform-api:1.5.0"
+//    implementation "javassist:javassist:3.12.1.GA"
+//    implementation "commons-io:commons-io:2.5"
 }
-repositories {
-    mavenCentral()
-}
+//repositories {
+//    mavenCentral()
+//}
