@@ -9,6 +9,11 @@ class MyPlugin implements Plugin<Project> {
     public void apply(Project project) {
         System.out.println("--------apply MyPlugin---------");
 
+        project.tasks.create("ywhLogPlugin")
+                .doLast {
+                    System.out.println("--------ywhLogPlugin开始执行咯---------");
+                }
+                .setGroup("ywhplguin")
     }
 
 }
