@@ -13,7 +13,7 @@ class MyPlugin implements Plugin<Project> {
                 .doLast {
                     System.out.println("--------ywhLogPlugin开始执行咯---------");
                 }
-                .setGroup("ywhplguin")
+                .setGroup("ywhplguin")//group
     }
 
 }
